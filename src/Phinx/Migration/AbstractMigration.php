@@ -65,7 +65,7 @@ abstract class AbstractMigration implements MigrationInterface
      *
      * @param int $version Migration Version
      */
-    final public function __construct($version)
+    public function __construct($version)
     {
         $this->version = $version;
         $this->init();
